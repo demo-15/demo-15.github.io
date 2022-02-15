@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -33,21 +34,7 @@
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">  
-
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/xpscss/style.css" rel="stylesheet">
-
+ <link rel="stylesheet" href="css/popcss/style2.css" type="text/css">
 
 </head>
 
@@ -72,7 +59,48 @@
   End Preloader
   ==================================== -->
 
-
+<div class="login-popup">
+  	 <div class="box">
+  	 	 <div class="img-area">
+  	 	 	<div class="img">
+  	 	 	</div>
+  	 	 	<h1>Your Logo</h1>
+  	 	 </div>
+  	 	 <div class="form" method="POST" action="index.php"> 
+  	 	 	<div class="close">&times;</div>
+  	 	 	<h1>Contact US</h1>
+  	 	 	<form>
+  	 	 	
+				
+				<div class="form-group">
+						<input type="text" placeholder="Your Name" class="form-control" name="name"  id="name">
+					</div>
+					
+					<div class="form-group">
+						<input type="email" placeholder="Your Email" class="form-control"  name="email" id="email">
+					</div>
+					
+					<div class="form-group">
+						<input type="text" placeholder="Subject" class="form-control" name="subject"  id="subject">
+					</div>
+					
+					<div class="form-group">
+						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+					</div>
+					
+					<div id="success" class="success">
+						Thank you. The Mailman is on His Way :)
+					</div>
+					
+					<div id="error" class="error">
+						Sorry, don't know what happened. Try later :(
+					</div>
+										
+  	 	 		<button type="submit" class="btn" name="submit">Submit</button>
+  	 	 	</form>
+  	 	 </div>
+  	 </div>
+  </div>
   
 
 <!--
@@ -116,18 +144,18 @@ Fixed Navigation
             <a class="nav-link" href="service.html">Services</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="portfolio.html">Happy Clients</a>
           </li>
-          <li class="nav-item ">
+          <!--<li class="nav-item ">
             <a class="nav-link" href="team.html">Team</a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="pricing.html">Pricing</a>
-          </li>
+          </li> -->
           <li class="nav-item ">
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Pages
@@ -137,7 +165,7 @@ Fixed Navigation
               <a class="dropdown-item" href="blog.html">Blog Page</a>
               <a class="dropdown-item" href="single-post.html">Blog Single Page</a>
             </div>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
@@ -191,35 +219,35 @@ Start About Section
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-code" ></i>
-              <h4>Website Designing</h4>
+              <h4><a href = "websitedevelopment.html" style="color:#000000;"> Website Development </a> </h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
             </div>
           </div><!-- END COL -->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-earth"></i>
-              <h4>Domain Registration and Hosting</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+              <h4><a href = "#" style="color:#000000;"> RCS (Rich Communication Services) </a> </h4>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
             </div>
           </div><!-- END COL -->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-laptop"></i>
-              <h4>Social Media Marketing</h4>
+			  <h4><a href = "email-marketing.html" style="color:#000000;"> Email Marketing </a> </h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
             </div>
           </div><!-- END COL -->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-ios-chatboxes-outline"></i>
-              <h4>Bulk SMS Service</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+              <h4><a href = "bulksms.html" style="color:#000000;"> Bulk SMS Service </a> </h4>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
             </div>
           </div><!-- END COL -->
 		
 		<div class="col-md-12 col-sm-12 col-xs-12">
             <div class="service-item1">
-             <h4>More Services</h4>
+             <h4><a href="service.html">More Services</a></h4>
             </div>
           </div><!-- END COL -->
 		  
@@ -325,24 +353,7 @@ Start About Section
 	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170.6486223230217!2d73.23414569975844!3d22.286373315894764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc59dfda9ae33%3A0xd09725b9a42474aa!2sXpert%20Infotech!5e1!3m2!1sen!2sin!4v1643181723066!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 <footer id="footer" class="bg-one">
   <div class="top-footer">
     <div class="container">
@@ -400,6 +411,7 @@ Start About Section
     
 
     
+<a class="" href="https://wa.me/message/2T6AYDTXPH55N1"> <i class="tf-ion-social-whatsapp"></i> </a>
     <!-- 
     Essential Scripts
     =====================================-->
@@ -428,24 +440,8 @@ Start About Section
     
     <!-- Custom js -->
     <script src="js/script.js"></script>
+<script src="js/popjs/script2.js"></script>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/xpsjs/main.js"></script>
 
   </body>
   </html>

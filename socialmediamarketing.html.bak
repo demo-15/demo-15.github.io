@@ -10,7 +10,7 @@
   
   <meta name="author" content="Themefisher.com">
 
-  <title>Website Development</title>
+  <title>Social Media Marketing</title>
 
 <!-- Mobile Specific Meta
   ================================================== -->
@@ -56,6 +56,7 @@
   ==================================== -->
 
 
+  
 
 <!--
 Fixed Navigation
@@ -88,13 +89,13 @@ Fixed Navigation
               <a class="dropdown-item" href="onepage-text.html">Onepage 2</a> -->
             <!--</div>
           </li>-->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Homepage</a>
           </li>
 		  <li class="nav-item ">
             <a class="nav-link" href="about.html">About Us</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="service.html">Services</a>
           </li>
           <li class="nav-item ">
@@ -134,12 +135,12 @@ End Fixed Navigation
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Website Development</h2>
+				<h2>Social Media Marketing</h2>
 				<!--<ol class="breadcrumb header-bradcrumb">
 				  <li><a href="index.html">Home/</a></li>
 				  <li><a href="service.html">Services/</a></li>
 				  <li class="active">Website Development</li>
-				</ol>-->
+				</ol> -->
 			</div>
 		</div>
 	</div>
@@ -150,10 +151,10 @@ End Fixed Navigation
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 mt-20" style="margin-top:0px;">
-				<h2 style="margin-top:0px;text-align:center;">Web Design Services</h2>
-				<p>Web Design with your customer in mind. Modern web design is more involved than creating an attractive website. Consideration of user experience, search engine optimization, ease of use, and technical details are just a few elements that are involved in developing a website that is designed to perform in today’s competitive marketplace.</p>
-				<p>Our web design & development team has established a host of effective services to facilitate the growth of your business. These include WordPress websites and eCommerce solutions focused on usability and responsive design, creative branding solutions that inject personality into your business, and custom programming for ideas that you need help bringing to fruition.</p>
-				<p>Whether you’re in need of a simple WordPress website to get your business online, or a more complicated eCommerce website, our web development team will help bring your vision to life.</p>
+				<h2 style="margin-top:0px;text-align:center;">Social Media Promotion</h2>
+				<p>How often do you check your Facebook each day? Your Twitter feed? Instagram? Pinterest? Pretty often, right? Now think about how often your customers or prospective customers use those same networks. That’s a huge opportunity!</p>
+				<p>Our social media experts know the right way to approach each social network to help you grow your following and succeed with social media marketing.</p>
+				<p>Utilizing a distinctively different approach to cultivate success, our team accelerates your social media presence with creative, compelling and engaging posts designed to encourage your customers to take action.</p>
 			</div>
 			<div class="col-md-6">
 				<img class="img-fluid" src="images/company/company-image.jpg" alt="">
@@ -169,8 +170,15 @@ End Fixed Navigation
       <div class="col-12">
         <!-- section title -->
         <div class="title text-center">
-          <h2>WordPress Development</h2>
-	  <p style="width:100%;">The easy-to-use, search engine friendly, flexible development platform is currently used on over 35% of all websites. WordPress provides a user friendly content management system (CMS), that allows you to easily make changes on the fly </p>
+          <h2>Facebook</h2>
+	  <p style="width:100%;">Stand out from the crowd on the most popular social network in the world.</p>
+	  <p style="width:100%;">With more than 2 billion active users you need to be taking full advantage of this wildly popular social network. Our team develops immersive and forward-thinking social media strategies including promotional contests and content curation relevant to your industry.</p>
+	  <p style="width:100%;"><i>Start Building Relationships.</i></p>
+          <div class="border"></div>
+        </div>
+		<div class="title text-center">
+          <h2></h2>
+	  <p style="width:100%;">The easy-to-use, search engine friendly, flexible development platform is currently used on over 35% of all websites. WordPress provides a user friendly content management system (CMS), that allows you to easily make changes on the fly.</p>
           <div class="border"></div>
         </div>
         <!-- /section title -->

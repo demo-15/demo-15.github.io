@@ -2428,7 +2428,7 @@ a:focus, a:hover {
   position: fixed;
   width: 50px;
   height: 50px;
-  background: #000000;
+  background: transparent;
   bottom: 40px;
   right: 50px;
   
@@ -2436,9 +2436,44 @@ a:focus, a:hover {
   text-decoration: none;
   text-align: center;
   line-height: 50px;
-  color: #5BFA7A;
-  font-size: 22px;
+  color: #25D366;
+  font-size: 50px;
 }
+
+.tf-ion-social-facebook:hover{
+color: #4267B2;
+
+}
+.tf-facebook:hover{
+color: #4267B2;
+
+}
+.tf-ion-social-pinterest:hover{
+color: #c8232c ;
+
+}
+.tf-ion-social-youtube:hover{
+color: #FF0000 ;
+
+}.tf-video:hover{
+color: #FF0000 ;
+
+}
+
+.tf-ion-social-instagram:hover{
+ background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    yellow,
+                    orange,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+
+}
+
 
 
 

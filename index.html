@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -33,7 +34,7 @@
   <link rel="stylesheet" href="plugins/slick/slick.css">
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">  
-
+ <link rel="stylesheet" href="css/popcss/style2.css" type="text/css">
 
 </head>
 
@@ -58,7 +59,48 @@
   End Preloader
   ==================================== -->
 
-
+<div class="login-popup">
+  	 <div class="box">
+  	 	 <div class="img-area">
+  	 	 	<div class="img">
+  	 	 	</div>
+  	 	 	<h1>Your Logo</h1>
+  	 	 </div>
+  	 	 <div class="form" method="POST" action="index.php"> 
+  	 	 	<div class="close">&times;</div>
+  	 	 	<h1>Contact Us</h1>
+  	 	 	<form>
+  	 	 	
+				
+				<div class="form-group">
+						<input type="text" placeholder="Your Name" class="form-control" name="name"  id="name">
+					</div>
+					
+					<div class="form-group">
+						<input type="email" placeholder="Your Email" class="form-control"  name="email" id="email">
+					</div>
+					
+					<div class="form-group">
+						<input type="text" placeholder="Subject" class="form-control" name="subject"  id="subject">
+					</div>
+					
+					<div class="form-group">
+						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>	
+					</div>
+					
+					<div id="success" class="success">
+						Thank you. The Mailman is on His Way :)
+					</div>
+					
+					<div id="error" class="error">
+						Sorry, don't know what happened. Try later :(
+					</div>
+										
+  	 	 		<button type="submit" class="btn" name="submit">Submit</button>
+  	 	 	</form>
+  	 	 </div>
+  	 </div>
+  </div>
   
 
 <!--
@@ -102,7 +144,7 @@ Fixed Navigation
             <a class="nav-link" href="service.html">Services</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="portfolio.html">Happy Clients</a>
+            <a class="nav-link" href="portfolio.html">Testimonial'S</a>
           </li>
           <!--<li class="nav-item ">
             <a class="nav-link" href="team.html">Team</a>
@@ -177,29 +219,29 @@ Start About Section
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-code" ></i>
-              <h4><a href = "websitedevelopment.html" style="color:#000000;"> Website Designing </a> </h4>
-              <p>Our web design & development team has established a host of effective services to facilitate the growth of your business. These include WordPress websites and eCommerce solutions focused on usability and responsive design, creative branding solutions that inject personality into your business, and custom programming for ideas that you need help bringing to fruition.</p>
+              <h4><a href = "websitedevelopment.html" style="color:#000000;"> Website Development </a> </h4>
+              <p>Our web design & development team has established a host of effective services to facilitate the growth of your business.</p>
             </div>
           </div><!-- END COL -->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-earth"></i>
-              <h4>Rich Communication Services</h4>
-              <p>Arihant provide's RCS Business Messages and in return businesses see increases in: <strong>Conversions, Engagement, Open Rate.</strong></p>
+              <h4><a href = "#" style="color:#000000;"> RCS (Rich Communication Services) </a> </h4>
+			  <p>Arihant provide's RCS Business Messages and in return businesses see increases in: <strong><o>Conversions, Engagement, Open Rate.</i></strong></p>
             </div>
           </div><!-- END COL -->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-laptop"></i>
-              <h4>Social Media Marketing</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+			  <h4><a href = "email-marketing.html" style="color:#000000;"> Email Marketing </a> </h4>
+              <p><strong>Arihant Media Solutions</strong>comes with <strong>Email Service Panel</strong> to send one email to multiple destination without delaying a second which can easily help user to create emails and send them to audience.</p>
             </div>
           </div><!-- END COL -->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="service-item">
               <i class="tf-ion-ios-chatboxes-outline"></i>
-              <h4>Bulk SMS Service</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.</p>
+              <h4><a href = "bulksms.html" style="color:#000000;"> Bulk SMS Service </a> </h4>
+			  <p>Arihant Media Solution's Bulk SMS Service is used by various many agencies for promotion, communication, transactional alerts, notification, reminders, OTP and feedback.</p>
             </div>
           </div><!-- END COL -->
 		
@@ -239,11 +281,11 @@ Start About Section
 				<ul class="contact-short-info" >
 					<li>
 						<i class="tf-ion-ios-home"></i>
-						<span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+						<span>40/5, Mahavir Market, 2nd Panjrapole Lane, Charni Road, Mumbai 400004, Maharashtra, India.</span>
 					</li>
 					<li>
 						<i class="tf-ion-android-phone-portrait"></i>
-						<span>Phone: +880-31-000-000</span>
+						<span>Phone: +91-8828978466</span>
 					</li>
 					<li>
 						<i class="tf-ion-android-globe"></i>
@@ -308,27 +350,10 @@ Start About Section
 <section class="map">
 	<!-- Google Map -->
 	
-	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d170.6486223230217!2d73.23414569975844!3d22.286373315894764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc59dfda9ae33%3A0xd09725b9a42474aa!2sXpert%20Infotech!5e1!3m2!1sen!2sin!4v1643181723066!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	 <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d120748.66532816937!2d72.75196804091058!3d18.958120046427815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d18.9579877!2d72.8214399!5e0!3m2!1sen!2sin!4v1644907139951!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 <footer id="footer" class="bg-one">
   <div class="top-footer">
     <div class="container">
@@ -386,6 +411,7 @@ Start About Section
     
 
     
+<a class="" href="https://wa.me/message/2T6AYDTXPH55N1"> <i class="tf-ion-social-whatsapp"></i> </a>
     <!-- 
     Essential Scripts
     =====================================-->
@@ -414,7 +440,7 @@ Start About Section
     
     <!-- Custom js -->
     <script src="js/script.js"></script>
-
+<script src="js/popjs/script2.js"></script>
 
 
   </body>

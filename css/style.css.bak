@@ -1282,7 +1282,7 @@ a:focus, a:hover {
 .service-item1 {
   border: 1px solid #eee;
   margin-bottom: 0px;
-  padding: 0px 10px;
+  padding: 0px 0px;
   transition: all 0.3s ease 0s;
 }
 .service-item1:hover {
@@ -2413,6 +2413,64 @@ a:focus, a:hover {
   .tab-post-nav li a {
     padding: 10px 15px;
   }
+  
+  
+  
 }
+
+
+* {
+  margin:0;
+  padding:0;
+}
+
+.tf-ion-social-whatsapp{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  bottom: 40px;
+  right: 50px;
+  
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #25D366;
+  font-size: 50px;
+}
+
+.tf-ion-social-facebook:hover{
+color: #4267B2;
+
+}
+.tf-ion-social-pinterest:hover{
+color: #c8232c ;
+
+}
+.tf-ion-social-youtube:hover{
+color: #FF0000 ;
+
+}.tf-video:hover{
+color: #FF0000 ;
+
+}
+
+.tf-ion-social-instagram:hover{
+ background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    yellow,
+                    orange,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+
+}
+
+
+
 
 /*# sourceMappingURL=maps/style.css.map */

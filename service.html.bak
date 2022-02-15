@@ -99,7 +99,7 @@ Fixed Navigation
             <a class="nav-link" href="service.html">Services</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="portfolio.html">Testimonial</a>
+            <a class="nav-link" href="portfolio.html">Happy Clients</a>
           </li>
           <!--<li class="nav-item ">
             <a class="nav-link" href="team.html">Team</a>
@@ -178,8 +178,8 @@ End Fixed Navigation
 					<div class="service-icon text-center">
 						<i class="tf-ion-ios-alarm-outline"></i>
 					</div>
-					<h3><a href = "rcs.html" style="color:#000000;">Rich Communication Services</a></h3>
-					<p><a href = "rcs.html" style="color:#000000;">Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam
+					<h3><a href = "domainregistration.html" style="color:#000000;">Domain Registration & Hosting</a></h3>
+					<p><a href = "domainregistration.html" style="color:#000000;">Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam
 						iaculis arcu at mauris dapibus consectetur.</a></p>
 				</div>
 			</div>
@@ -204,8 +204,8 @@ End Fixed Navigation
 					<div class="service-icon text-center">
 						<i class="tf-ion-ios-briefcase-outline"></i>
 					</div>
-					<h3><a href = "domainregistration.html" style="color:#000000;">Domain Registration & Hosting</h3>
-					<p><a href = "domainregistration.html" style="color:#000000;">Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam
+					<h3 style="color:#000000;">RCS</h3>
+					<p style="color:#000000;">Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam
 						iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
 			</div>

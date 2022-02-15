@@ -1939,7 +1939,7 @@
   content: "\f230";
 }
 .tf-ion-social-facebook:before {
-  content: "\f231";
+  content: "\f221";
 
 }
 
