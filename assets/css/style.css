@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0px 0;
   overflow: hidden;
 }
 
@@ -540,6 +540,7 @@ section {
   font-weight: 500;
   line-height: 32px;
   font-size: 24px;
+  text-align: justify;
 }
 .about .content ul {
   list-style: none;
@@ -631,8 +632,8 @@ section {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 8px 15px 10px 15px;
-  font-size: 14px;
+  padding: 12px 20px 10px 15px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
